@@ -352,7 +352,7 @@ header .navbar ul li a:hover {
 
 
 .heading-pro {
-  
+  /* border: 5px solid red; */
   text-align: center;
   margin: 0 6rem;
   font-size: 4rem;
@@ -364,20 +364,23 @@ header .navbar ul li a:hover {
 
 }
 .heading-pro span {
-  
+  /* border: 5px solid red; */
   color: #222222;
 }
 
 
 .project-cont {
   /* border: 5px solid red; */
+  /* display: flex; */
+  /* display: grid;
+  grid-template-rows: repeat(2, 40%); */
   width: 100%;
   gap: 30px;
   color: #fff;
 }
 
 .project-cont .box {
-  /* border: 5px solid red; */
+ 
   display: flex;
   width: 90%;
   padding: 25px;
@@ -390,6 +393,7 @@ header .navbar ul li a:hover {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .project-cont .box:hover{
+  /* border: 5px solid red; */
   background: black;
 }
 
